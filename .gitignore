@@ -1,0 +1,21 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Raw large datasets (do not commit 50k files to Git)
+data/raw/*
+!data/raw/.gitkeep
+
+# Saved large model artifacts
+artifacts/*.joblib
+artifacts/*.pkl
+
+# SQLite database file
+*.db
+*.sqlite3
+
+# IDE config
+.vscode/
+.idea/
